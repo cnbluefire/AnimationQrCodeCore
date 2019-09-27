@@ -1,5 +1,6 @@
 ## AnimationQrCode
 生成动画二维码  
+![](Image.gif)  
 
 ### 参数：
 -Mode Gif/Png/Both
