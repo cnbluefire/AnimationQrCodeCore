@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Resources>
+    <Resource>
+      <Key>tank</Key>
+      <Name>Tank</Name>
+      <Rotate>true</Rotate>
+      <Gravity>false</Gravity>
+      <Path>Resources/tank/resource.png</Path>
+      <Peek>Resources/tank/peek.png</Peek>
+      <Blocks>
+        <Block Mode="Theme" Height="16" Width="16" X="0" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="16" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="32" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="48" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="48" Y="16" />
+        <Block Mode="Movable" Height="16" Width="16" X="0" Y="16" />
+        <Block Mode="Movable" Height="16" Width="16" X="16" Y="16" />
+        <Block Mode="Movable" Height="16" Width="16" X="32" Y="16" />
+        <Block Mode="Movable" Height="16" Width="16" X="0" Y="32" />
+        <Block Mode="Movable" Height="16" Width="16" X="16" Y="32" />
+        <Block Mode="StaticMovable" Height="16" Width="16" X="32" Y="32" />
+        <Block Mode="StaticMovable" Height="16" Width="16" X="48" Y="32" />
+      </Blocks>
+    </Resource>
+    <Resource>
+      <Key>supermario-light</Key>
+      <Name>Super Mario Light</Name>
+      <Rotate>false</Rotate>
+      <Gravity>true</Gravity>
+      <Path>Resources/supermario-light/resource.png</Path>
+      <Peek>Resources/supermario-light/peek.png</Peek>
+      <Blocks>
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="16" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="32" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="48" />
+        <Block Mode="AnimationTheme" Height="16" Width="80" X="0" Y="64" />
+        <Block Mode="Movable" Height="16" Width="16" X="0" Y="0" />
+        <Block Mode="Movable" Height="16" Width="32" X="16" Y="0" />
+        <Block Mode="Movable" Height="16" Width="32" X="0" Y="16" />
+        <Block Mode="Movable" Height="16" Width="32" X="32" Y="16" />
+        <Block Mode="Movable" Height="16" Width="32 " X="0" Y="48" />
+        <Block Mode="StaticMovable" Height="16" Width="48" X="0" Y="32" />
+      </Blocks>
+    </Resource>
+    <Resource>
+      <Key>supermario-dark</Key>
+      <Name>Super Mario Dark</Name>
+      <Rotate>false</Rotate>
+      <Gravity>true</Gravity>
+      <Path>Resources/supermario-dark/resource.png</Path>
+      <Peek>Resources/supermario-dark/peek.png</Peek>
+      <Blocks>
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="0" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="16" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="32" />
+        <Block Mode="Theme" Height="16" Width="16" X="64" Y="48" />
+        <Block Mode="AnimationTheme" Height="16" Width="80" X="0" Y="64" />
+        <Block Mode="Movable" Height="16" Width="16" X="0" Y="0" />
+        <Block Mode="Movable" Height="16" Width="32" X="16" Y="0" />
+        <Block Mode="Movable" Height="16" Width="32" X="0" Y="16" />
+        <Block Mode="Movable" Height="16" Width="32" X="32" Y="16" />
+        <Block Mode="Movable" Height="16" Width="32 " X="0" Y="48" />
+        <Block Mode="StaticMovable" Height="16" Width="48" X="0" Y="32" />
+      </Blocks>
+    </Resource>
+  </Resources>
+</Config>

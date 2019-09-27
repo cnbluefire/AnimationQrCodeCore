@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QRCode.lib", "QRCode.lib\QRCode.lib.csproj", "{D398F455-893D-4D06-8049-ADC7122C0E68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NGif-core", "NGif-core\NGif-core.csproj", "{1438CFF9-A419-4E01-B480-1E2F6DF17C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimationQrCodeCore", "AnimationQrCodeCore\AnimationQrCodeCore.csproj", "{AE2893A5-590F-44E3-88D0-F3D445C7148E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D398F455-893D-4D06-8049-ADC7122C0E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D398F455-893D-4D06-8049-ADC7122C0E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D398F455-893D-4D06-8049-ADC7122C0E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D398F455-893D-4D06-8049-ADC7122C0E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1438CFF9-A419-4E01-B480-1E2F6DF17C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1438CFF9-A419-4E01-B480-1E2F6DF17C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1438CFF9-A419-4E01-B480-1E2F6DF17C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1438CFF9-A419-4E01-B480-1E2F6DF17C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2893A5-590F-44E3-88D0-F3D445C7148E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2893A5-590F-44E3-88D0-F3D445C7148E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2893A5-590F-44E3-88D0-F3D445C7148E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2893A5-590F-44E3-88D0-F3D445C7148E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29838D3E-A7D5-4D6E-ACB2-9EB955565155}
+	EndGlobalSection
+EndGlobal
